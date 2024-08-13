@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './components/nav/nav.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
 
@@ -10,11 +11,9 @@ const routes: Routes = [
     pathMatch:'full'
   },
   {
-    path:'login', component:NavComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'**', redirectTo:'' //Rota Coringa para redirecionar o usuario para a rota principal
+    path: '', component: NavComponent, children: [
+      { path: 'home', component: HomeComponent }
+    ]
   }
 ];
 
