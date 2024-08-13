@@ -38,4 +38,5 @@ Este projeto foi gerado com Angular CLI versão 14.1.2.
   <img src="https://img.shields.io/badge/Css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Javascript-%23F0DB4F.svg?style=for-the-badge&logo=javascript&logoColor=1F1F1F">
   <img src="https://img.shields.io/badge/Typescript-%230C375D.svg?style=for-the-badge&logo=typescript&logoColor=white">
+  Angular Material 14.2.7
 </p>
