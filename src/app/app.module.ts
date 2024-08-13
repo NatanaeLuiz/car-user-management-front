@@ -36,6 +36,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { NavComponent } from './components/nav/nav.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 
@@ -45,7 +46,8 @@ import { HomeComponent } from './components/home/home.component';
     MenuBarComponent,
     NavComponent,
     PostsComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     MatMenuModule,
