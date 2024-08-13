@@ -35,6 +35,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { NavComponent } from './components/nav/nav.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 
@@ -43,7 +44,8 @@ import { PostsComponent } from './components/posts/posts.component';
     AppComponent,
     MenuBarComponent,
     NavComponent,
-    PostsComponent
+    PostsComponent,
+    HomeComponent
   ],
   imports: [
     MatMenuModule,
